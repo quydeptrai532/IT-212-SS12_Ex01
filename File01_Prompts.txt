@@ -1,0 +1,18 @@
+FILE 01: CHUỖI PROMPT (PROMPT CHAINING) - PHÂN TÍCH NGHIỆP VỤ EKYC
+
+--- PROMPT 1: Thiết lập vai trò & Phân tích hệ thống ---
+Hãy đóng vai một Senior Business Analyst có 10 năm kinh nghiệm trong lĩnh vực FinTech và Ngân hàng số. Bạn đang phụ trách dự án số hóa quy trình mở thẻ cho Ngân hàng số ABC Bank với mục tiêu cốt lõi là 'Zero manual operation' (giảm thiểu tối đa sự can thiệp của giao dịch viên) thông qua eKYC. 
+
+Luồng cơ bản của dự án: Khách hàng tải app -> Đăng ký thông tin cơ bản -> Chụp ảnh 2 mặt CCCD -> Quét khuôn mặt (Liveness check) -> Hệ thống đối chiếu dữ liệu -> Cấp số tài khoản tự động nếu hợp lệ.
+
+Dựa trên tình huống nghiệp vụ trên, hãy phân tích chi tiết và trình bày rõ ràng các nội dung sau:
+1. Actors: Các tác nhân tham gia hệ thống.
+2. Business Flow: Luồng nghiệp vụ từng bước chi tiết.
+3. Functional Requirements (FR): Các yêu cầu chức năng.
+4. Non-Functional Requirements (NFR): Các yêu cầu phi chức năng (bảo mật, hiệu năng...).
+5. Assumptions & Business Rules: Các giả định và quy tắc nghiệp vụ của ngân hàng.
+
+--- PROMPT 2: Chuyển đổi Artifacts (Sinh User Story và Use Case) ---
+Tuyệt vời. Dựa trên toàn bộ kết quả phân tích hệ thống eKYC ở trên, hãy tiếp tục thực hiện các công việc sau để chuyển giao cho đội Dev và QA:
+1. Viết một danh sách khoảng 5-7 User Story cho luồng nghiệp vụ này (Bắt buộc theo chuẩn: As a [role], I want to [action], So that [benefit/value]). 
+2. Lập danh sách các Use Case chính của hệ thống kèm theo mô tả ngắn gọn cho từng Use Case.
